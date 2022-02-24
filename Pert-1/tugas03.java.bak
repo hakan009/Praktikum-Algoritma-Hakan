@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class tugas03 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		int aglonema = 0;
+		int keladi =0;
+		int alocasia = 0;
+		int mawar =0;
+		int hrgAglo =75000;
+		int hrgKeladi = 50000;
+		int hrgAloc = 60000;
+		int hrgMawar = 10000;
+		
+		int[][] bunga = {{10,5,15,7}, {6,11,9,12}, {2,10,10,5}, {5,7,12,9}};
+		
+		for(int i =0; i< bunga.length; i++){
+			for(int j=0; j< bunga[0].length; j++){
+				switch(j){
+					case 0:
+					aglonema += bunga[i][j];
+					break;
+					case 1:
+					keladi += bunga[i][j];
+					break;
+					case 2:
+					alocasia += bunga[i][j];
+					break;
+					case 3:
+					mawar += bunga[i][j];
+					break;
+				}
+			System.out.println(aglonema +""+ keladi+ "" + alocasia+ "" + mawar);
+			}
+		}
+	}
+}
+					
+// grg mari contekan e
