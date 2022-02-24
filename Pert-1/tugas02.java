@@ -25,7 +25,3 @@ public class tes {
 		}
 	}
 }
-			
-		
-
-//belum komplit jange nambah lek iso atek validasi
