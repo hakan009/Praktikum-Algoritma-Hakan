@@ -9,8 +9,8 @@
 5. Menambahkan (Pakaian Kg dan diskon)
 6. Menu dan mencari Kecepatan (v), Jarak (s), Waktu (t)
 
-1. Pemilihan <img src ="pemilihan.png">
-2. Perulangan <img src ="perulangan.png">
+1. Pemilihan <img src ="Pemilihan.png">
+2. Perulangan <img src ="Perulangan.png">
 3. Array <img src ="Array.png">
 4. Fungsi <img src ="fungsi.png">
 5. Laundry <img src ="laundry.png">
