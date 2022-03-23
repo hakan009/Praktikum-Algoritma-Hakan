@@ -244,6 +244,6 @@ Karena n = 8, nilai mayoritas paling sedikit sejumlah 5 (8/2+1)
 Keterangan : Warna Biru adalah proses **divide**, warna kuning dimulainya proses conquer, warna 
 hijau dimulainya proses **combine**
 
-<img src = "latprak4-5 (1).PNG">
-<img src = "latprak4-5 (2).PNG">
-<img src = "latprak4-5 (3).PNG">
+<img src = "latprak4-5 (1).png">
+<img src = "latprak4-5 (2).png">
+<img src = "latprak4-5 (3).png">
