@@ -194,11 +194,14 @@ Cocokkan hasil compile kode program anda dengan gambar berikut ini
 
 1. Berikan ilustrasi perbedaan perhitungan keuntungan dengan method TotalBF() ataupun 
 TotalDC()
+    - pangkatBF langsung menambah inputan, sedangkan pangkatDC membagi atau  memecah sebuah inputan lalu mengcombine lagi di akhir proses dan ada hasilnya 
 
 2. Perhatikan output dari kedua jenis algoritma tersebut bisa jadi memiliki hasil berbeda di 
 belakang koma. Bagaimana membatasi output di belakang koma agar menjadi standar untuk 
 kedua jenis algoritma tersebut.
-    - 
+    - Membagi masalah menjadi beberapa masalah kecil, menyelesaikan masing-masing masalah 
+secara rekrusif dan menggabungkan sebuah solusi masalah sehingga membentuk sebuah 
+solusi masalah semula
 
 3. Mengapa terdapat formulasi return value berikut? Jelaskan!
 ```sh
