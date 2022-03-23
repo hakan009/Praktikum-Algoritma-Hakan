@@ -16,20 +16,20 @@ public class PerguruanTinggiMain {
         System.out.println("PEMILIHAN KETUA BEM KOTA MALANG");
         System.out.println("=======================================================");
         PergururanTinggi pol = new PergururanTinggi();
-        PergururanTinggi[] bem = new PergururanTinggi[pol.jumlahKandidat];
+        PergururanTinggi[] bem = new PergururanTinggi[pol.kandidatBanyak];
         
-        for(int i = 0; i < pol.jumlahKandidat; i++) {
+        for(int i = 0; i < pol.kandidatBanyak; i++) {
             bem[i] = new PergururanTinggi();
             System.out.println("Nama Kandidat BEM ke- " + (i+1) + ": ");
             bem[i].kandidat = sc.nextLine();
         }
-        for (int i = 0; i < pol.jumlahKandidat; i++) {
+        for (int i = 0; i < pol.kandidatBanyak; i++) {
             System.out.println("Jumlah Pemilih Suara Kandidat BEM ke = " + (i+1) + ": ");
             bem[i].vote = sc.nextInt();
-            pol.jumlahVote += bem[i].vote;
+            pol.jumlahVoting += bem[i].vote;
         }
         System.out.println("=======================================================");
-        int hasil_bem = pol.hitungHasil(pol.jumlahVote, bem[0].vote, bem[1].vote, bem[2].vote, bem[3].vote);
+        int hasil_bem = pol.hitungHasil(pol.jumlahVoting, bem[0].vote, bem[1].vote, bem[2].vote, bem[3].vote);
         if(hasil_bem == 0) {
             System.out.println("Kandidat memiliki mayoritas hampir sama");
         }else{

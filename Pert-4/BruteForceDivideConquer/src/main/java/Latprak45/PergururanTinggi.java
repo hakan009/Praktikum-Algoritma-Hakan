@@ -11,8 +11,8 @@ package Latprak45;
  */
 public class PergururanTinggi {
     public int vote;
-    public int jumlahVote;
-    public int jumlahKandidat = 4;
+    public int jumlahVoting;
+    public int kandidatBanyak = 4;
     public String kandidat;
     public int nilai;
     public int acc;
