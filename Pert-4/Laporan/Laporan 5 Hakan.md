@@ -247,3 +247,6 @@ hijau dimulainya proses **combine**
 <img src = "latprak4-5 (1).png">
 <img src = "latprak4-5 (2).png">
 <img src = "latprak4-5 (3).png">
+<img src = "latprak4-5 (4).png">
+<img src = "latprak4-5 (5).png">
+
