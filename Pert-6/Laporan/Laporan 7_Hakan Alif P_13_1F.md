@@ -50,26 +50,26 @@ menampilkan data mahasiswa yang dicari.
 3. Buat class Mahasiswa, kemudian deklarasikan atribut berikut 
 ini:
 
-<img src = "perc1 (1).png">
+<img src = "Perc1 (1).png">
 
 4. Buatlah konstruktor dengan nama Mahasiswa dengan parameter (int ni, String n, 
 int u, double i) kemudian Isi konstruktor tersebut dengan kode berikut! 
 
-<img src = "perc1 (2).png">
+<img src = "Perc1 (2).png">
 
 5. Buatlah method tampil bertipe void.
 
 
-<img src = "perc1 (3).png">
+<img src = "Perc1 (3).png">
 
 6. Buat class baru dengan nama PencarianMhs seperti di bawah ini!
 
-<img src = "perc1 (4).png">
+<img src = "Perc1 (4).png">
 
 7. Tambahkan method tambah() di dalam class tersebut! Method tambah() digunakan untuk 
 menambahkan objek dari class Mahasiswa ke dalam atribut listMhs.
 
-<img src = "perc1 (5).png">
+<img src = "Perc1 (5).png">
 
 
 8. Tambahkan method tampil() di dalam class PencarianMhs! Method tampil()
@@ -77,64 +77,64 @@ digunakan untuk menampilkan semua data mahasiswa-mahasiswa yang ada di dalam cla
 tersebut! Perhatikan penggunaan sintaks for yang agak berbeda dengan for yang telah dipelajari 
 sebelumnya, meskipun secara konsep sebenarnya mirip.
 
-<img src = "perc1 (6).png">
+<img src = "Perc1 (6).png">
 
 9. Tambahkan method FindSeqSearch bertipe integer dengan parameter cari bertipe integer. 
 Kemudian Deklarasikan isi method FindSeqSearch dengan algoritma pencarian data 
 menggunakan teknik sequential searching.
 
-<img src = "perc1 (7).png">
+<img src = "Perc1 (7).png">
 
 10. Buatlah method Tampilpoisisi bertipe void dan Deklarasikan isi dari method 
 Tampilpoisisi.
 
-<img src = "perc1 (8).png">
+<img src = "Perc1 (8).png">
 
 11. Buatlah method TampilData bertipe void dan Deklarasikan isi dari method TampilData.
 
-<img src = "perc1 (9).png">
+<img src = "Perc1 (9).png">
 
 12. Buatlah class baru dengan nama MahasiswaMain tambahkan method main seperti pada 
 gambar berikut!
 
-<img src = "perc1 (10).png">
+<img src = "Perc1 (10).png">
 
 13. Di dalam method main(), buatlah sebuah objek PencarianMhs dan buatlah 5 objek 
 mahasiswa kemudian tambahkan semua objek mahasiswa tersebut dengan memanggil fungsi 
 tambah pada objek PencarianMhs. 
 
-<img src = "perc1 (15).png">
+<img src = "Perc1 (15).png">
 
 14. Panggil method tampil() untuk melihat semua data yang telah dimasukan.
 
-<img src = "perc1 (11).png">
+<img src = "Perc1 (11).png">
 
 15. Untuk melakukan pencarian berdasarkan NIM mahasiswa. Buatlah variable cari yang dapat 
 menampung masukan dari keyboard lalu panggil method FindSeqSearch dengan isi 
 parameternya adalah variable cari
 
-<img src = "perc1 (12).png">
+<img src = "Perc1 (12).png">
 
 16. Lakukan pemanggilan method Tampilposisi dari class PencarianMhs.
 
-<img src = "perc1 (13).png">
+<img src = "Perc1 (13).png">
 
 17. Lakukan pemanggilan method TampilData dari class PencarianMhs.
 
-<img src = "perc1 (14).png">
+<img src = "Perc1 (14).png">
 
 18. Jalankan dan amati hasilnya. 
 
 ## **6.2.2. Verifikasi Hasil Percobaan**
 Cocokkan hasil kode program anda dengan gambar berikut ini.
 
-<img src = "perc1 (16).png">
+<img src = "Perc1 (16).png">
 
 
-<img src = "perc1 (17).png">
+<img src = "Perc1 (17).png">
 
 
-<img src = "perc1 (18).png">
+<img src = "Perc1 (18).png">
 
 ## **6.2.3. Pertanyaan**
 
@@ -170,23 +170,23 @@ berjalan? Apakah hasil yang dikeluarkan benar? Mengapa demikian!
 integer pada class PencarianMhs. Kemudian Deklarasikan isi method FindBinarySearch
 dengan algoritma pencarian data menggunakan teknik binary searching.
 
-<img src = "perc2 (1).png">
+<img src = "Perc2 (1).png">
 
 2. Panggil method FindBinarySearch terdapat pada class PencarianMhs di kelas
 Mahasiswamain. Kemudia panggil method tampilposisi dan tampilData
 
-<img src = "perc2 (2).png">
+<img src = "Perc2 (2).png">
 
 3. Jalankan dan amati hasilnya. 
 
 ## **6.3.2. Verifikasi Hasil Percobaan**
 Cocokkan hasil kode program anda dengan gambar berikut ini.
 
-<img src = "perc2 (3).png">
+<img src = "Perc2 (3).png">
 
-<img src = "perc2 (4).png">
+<img src = "Perc2 (4).png">
 
-<img src = "perc2 (5).png">
+<img src = "Perc2 (5).png">
 
 ## **6.3.3. Pertanyaan**
 
@@ -323,17 +323,17 @@ Cocokkan hasil compile kode program anda dengan gambar berikut ini
 menggunakan algoritma sorting (pilih salah satu algoritma sorting dari pertemuan 
 sebelumnya)
 
-- <img src = "lat1 (1).png">
+- <img src = "Lat1 (1).png">
 
-- <img src = "lat1 (2).png">
+- <img src = "Lat1 (2).png">
 
-- <img src = "lat1 (3).png">
+- <img src = "Lat1 (3).png">
 
-- <img src = "lat1 (4).png">
+- <img src = "Lat1 (4).png">
 
-- <img src = "lat1 (5).png">
+- <img src = "Lat1 (5).png">
 
-- <img src = "lat1 (6).png">
+- <img src = "Lat1 (6).png">
 
 2. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
 - Pencarian dilakukan berdasarkan Nama Mahasiswa (gunakan Algoritma Sequential Search)
