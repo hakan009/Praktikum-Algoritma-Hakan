@@ -99,7 +99,7 @@ public class movieMain {
                         m.searching(cari);
                         break;
                     case 9: 
-                        m.sorting();
+                        m.bubbleSort();
                         m.print();
                         break;
                     case 10:

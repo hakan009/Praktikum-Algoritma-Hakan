@@ -152,23 +152,30 @@ public class movie {
         }
         size--;
     }
-    
-    public void sorting(){
+       
+    public void bubbleSort(){
         nodeF current = null, index = null;
         double tmp;
-        if(head == null){
+        String temp;
+        if(isEmpty()){
             return;
         } else {
-             for(current = head; current.next != null; current = current.next){
+            for(current = head; current.next != null; current = current.next){
                  for(index = current.next; index != null; index = index.next) {
-                     if(current.rating > index.rating) {  
+                     if(current.rating < index.rating) {  
                         tmp = current.rating;  
                         current.rating = index.rating;  
-                        index.rating = tmp; 
+                        index.rating = tmp;
+                        temp = current.id;
+                        current.id = index.id;
+                        index.id = temp;
+                        temp = current.judul;
+                        current.judul = index.judul;
+                        index.judul = temp;
+                     }
                  }
-             }
+            }
         }
-    }
     }
     
     public void searching(String cari) {  
