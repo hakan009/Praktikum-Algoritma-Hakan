@@ -216,8 +216,18 @@ leaf yang ada di dalam tree.
 
 5. Modifikasi class **BinaryTreeArray**, dan tambahkan : 
 • method **add(int data)** untuk memasukan data ke dalam tree 
+
+<img src = "no5 (1).png">
+
 • method **traversePreOrder()** dan **traversePostOrder()**
 
+<img src = "no5 (2).png">
 
+<img src = "no5 (3).png">
 
+<img src = "no5 (4).png">
+
+<img src = "no5 (5).png">
+
+<img src = "no5 (6).png">
 
