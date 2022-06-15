@@ -240,5 +240,3 @@ Bandung, Yogya, Malang, dst.
 
 <img src = "no4 (5).png">
 
-<img src = "no4 (6).png">
-
